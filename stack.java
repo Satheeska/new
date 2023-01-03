@@ -56,5 +56,6 @@ public class stack{
         num1.push(6);
         num1.push(5);
         num1.pop();
+        num1.peek();
     }
 }
