@@ -40,6 +40,16 @@ public class stack{
         }
     }
 
+    public int peek(){
+        if(!isEmpty()){
+            return num[top];
+        }
+        else{
+            System.out.println("Stack is Empty");
+            return 0;
+        }
+    }
+
     public static void main(String args[]){
         stack num1 = new stack();
         num1.push(1);
