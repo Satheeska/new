@@ -57,7 +57,7 @@ public class stack{
             }
         }
         else{
-            System.out.println("Stack is Empty);
+            System.out.println("Stack is Empty");
         }
     }
         public static void main(String args[]){
