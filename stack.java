@@ -50,7 +50,17 @@ public class stack{
         }
     }
 
-    public static void main(String args[]){
+    public void printElement(){
+        if(!isEmpty()){
+            for(int i=0; i<=top; i++){
+                System.out.println(num[i]);
+            }
+        }
+        else{
+            System.out.println("Stack is Empty);
+        }
+    }
+        public static void main(String args[]){
         stack num1 = new stack();
         num1.push(1);
         num1.push(6);
