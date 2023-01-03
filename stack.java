@@ -67,5 +67,6 @@ public class stack{
         num1.push(5);
         num1.pop();
         num1.peek();
+        num1.printElement();
     }
 }
